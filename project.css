@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: white; */
+    min-width: 100%;
+    background-color: black;
+    color: white;
+}
+
+/* NAVBAR */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* min-height: 5vw; */
+    /* background-color: black; */
+}
+.navbar h1 a{
+    display: flex;
+    align-items: center;
+    margin: 2vh;
+    padding: 0.5rem;
+    font-size: 4rem;
+    color:floralwhite;
+    border: 2px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+
+    
+    
+    
+}
+.navbar h1 a:hover{
+    border: 2px solid rgb(165, 201, 65);
+    border-radius: 1rem;
+    
+}
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+.navbar ul li a{
+    /* padding: 2rem; */
+    margin: 2rem;
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+}
+.navbar ul li  :hover{
+    border-bottom: 2px solid rgb(165, 201, 65);
+    color: rgb(165, 201, 65);
+    
+  
+  
+}
+
+.project-ul{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    margin-top: 3vw;
+    max-width: 60vw;
+    
+    
+}
+.project-ul .project1-li {
+    border: 0.2vh solid rgb(165, 201, 65);
+    padding: 2vw;
+    color: rgb(165, 201, 65);
+    border-radius: 1vw;
+    /* margin-bottom: 2vw; */
+    width:60vw ;
+}
+.project-ul .project1-li p{
+    color: white;
+}
+
+.project-ul .project1-li h2{
+    padding-bottom: 3vw;
+}
+.project-ul .project1-li h6{
+    padding: 0 0 3vw;
+}
+.project-ul .project1-li p{
+    font-size: 1vw;
+}
+.links-a{
+    padding: 3vw;
+}
+.links-a .live{
+    border: 0.2vw solid white;
+    margin: 0 2vw;
+    padding: 1vw;
+    text-decoration: none;
+    color: white;
+    border-radius: 1vw;
+}
+.links-a .code{
+    border: 0.2vw solid white;
+    margin: 0 2vw;
+    padding: 1vw;
+    text-decoration: none;
+    color: white;
+    border-radius: 1vw;
+    
+}
+.code:hover{
+    background-color: rgb(165, 201, 65);
+}
+/* ----------------------------------------- */
+/* project 2 */
+
+
+.project-ul .project2-li {
+    border: 0.2vh solid rgb(165, 201, 65);
+    padding: 2vw;
+    color: rgb(165, 201, 65);
+    margin-top: 2vw;
+    border-radius: 1vw;
+    margin-bottom: 2vw;
+    width: 60vw;
+}
+
+.project-ul .project2-li h2{
+    padding-bottom: 3vw;
+}
+.project-ul .project2-li p{
+    color: white;
+}
+.project-ul .project2-li h6{
+    padding: 0 0 3vw;
+}
+.project-ul .project2-li p{
+    font-size: 1vw;
+}
+.links-a1{
+    padding: 3vw;
+}
+.links-a1 .code{
+    border: 0.2vw solid white;
+    margin: 0 2vw;
+    padding: 1vw;
+    text-decoration: none;
+    color: white;
+    border-radius: 1vw;
+}
+.links-a1 .live{
+    border: 0.2vw solid white;
+    margin: 0 2vw;
+    padding: 1vw;
+    text-decoration: none;
+    color: white;
+    border-radius: 1vw;
+}
+.live:hover{
+    background-color: rgb(165, 201, 65);
+}
+
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+
+}
+footer a{
+    text-decoration: none;
+    padding: 30px;
+    font-size: 20px;
+    color: white;
+}
+footer a:hover{
+    color:rgb(165, 201, 65) ;
+}

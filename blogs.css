@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#6C63FF;
+}
+body{
+    background-color: white;
+    min-width: 100%;
+    background-color: black;
+    color: rgb(165, 201, 65);
+}
+
+/* NAVBAR */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* min-height: 5vw; */
+    /* background-color: aquabmarine; */
+}
+.navbar h1 a{
+    display: flex;
+    align-items: center;
+    margin: 2vh;
+    padding: 0.5rem;
+    font-size: 4rem;
+    color:floralwhite;
+    border: 2px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+
+    
+    
+    
+}
+.navbar h1 a:hover{
+    border: 2px solid rgb(165, 201, 65);
+    border-radius: 1rem;
+    
+}
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+.navbar ul li a{
+    /* padding: 2rem; */
+    margin: 2rem;
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+}
+.navbar ul li  :hover{
+    border-bottom: 2px solid rgb(165, 201, 65);
+    color: rgb(165, 201, 65);
+    
+  
+  
+}
+
+/* MAIN CONTENT */
+
+.main-sec{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 50%;
+    margin-top: 2.5rem;
+}
+.child-div{
+    margin: 3rem;
+    border: 2px solid white;
+    padding: 2rem;
+    border-radius: 10%;
+}
+.child-div img{
+    padding: 0 1rem 1rem 1rem;
+    width:30rem;
+    height: 20rem;
+    border-radius: 10%;
+}
+.child-div h1{
+    font-size: 2rem;
+}
+.child-div p{
+    padding: 1rem;
+    color: white;
+    font-size: 1.2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.child-div button {
+    padding: 0.5rem 2rem;
+    margin: 1rem;
+    font-size: 1.3rem;
+    border-radius: 0.5rem;
+}
+.child-div button:hover{
+    background-color: rgb(165, 201, 65);
+    color: white;
+    cursor: pointer;
+}
+.child-div button a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+
+}
+footer a{
+    text-decoration: none;
+    padding: 30px;
+    font-size: 20px;
+    color: white;
+}
+footer a:hover{
+    color:rgb(165, 201, 65) ;
+}
